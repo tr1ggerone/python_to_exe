@@ -1,0 +1,6 @@
+scipy==1.11.0
+numpy==1.25.0
+mne==1.4.2
+matplotlib==3.7.1
+pandas==2.0.2
+auto-py-to-exe==2.36.0
