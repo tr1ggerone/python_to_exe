@@ -32,5 +32,5 @@
 
 ## Reference: 
 - [How to convert .py to .exe? Step by step guide.](https://proxlight.medium.com/how-to-convert-py-to-exe-step-by-step-guide-82e9e9a8984a)
-- [Github](https://github.com/brentvollebregt/auto-py-to-exe)
+- [Auto Py to Exe Github](https://github.com/brentvollebregt/auto-py-to-exe)
 - [夾帶檔案的exe生成方式 - onefile](https://zhuanlan.zhihu.com/p/130328237)
