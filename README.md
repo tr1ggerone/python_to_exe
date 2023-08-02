@@ -1,0 +1,2 @@
+# python_to_exe
+將python的code轉譯成exe，可以給其他軟體call或是利用command line執行
