@@ -1,6 +1,6 @@
 ## python_to_exe
-- 將python script生成exe檔，以下討論兩種不同的生成結果
-- 使用到的package請見檔案中的requirements_v010.txt
+- 將 python script 生成exe檔，以下討論兩種不同的生成結果
+- 使用到的 python 檔中使用的 package 請見檔案中的`requirements_v010.txt`
 
 ## 生成流程
 - 前置作業: 
@@ -20,7 +20,7 @@
 			import os
 			import sys
 			try:
-				base_path = sys._MEIPASS
+    				base_path = sys._MEIPASS
 				print(base_path)
 			except Exception:
 				base_path = os.path.abspath(".")
@@ -34,3 +34,18 @@
 - [How to convert .py to .exe? Step by step guide.](https://proxlight.medium.com/how-to-convert-py-to-exe-step-by-step-guide-82e9e9a8984a)
 - [Auto Py to Exe Github](https://github.com/brentvollebregt/auto-py-to-exe)
 - [夾帶檔案的exe生成方式 - onefile](https://zhuanlan.zhihu.com/p/130328237)
+
+## 備註
+- test_data中的資料為壓縮檔，記得解壓縮後再使用
+- 以下為 exe_for_tkinter.exe 的開啟方式:
+  ```
+  1. 開啟cmd
+  2. cd 至 exe 的位址資料夾
+  3. exe_for_tkinter.exe
+  ```
+- 以下為 exe_for_cmd.exe 的開啟方式:
+  ```
+  1. 開啟cmd
+  2. cd 至 exe 的位址資料夾
+  3. exe_for_cmd.exe 測試資料完整路徑("C:/Users/XXXX/Desktop/my_github/python_to_exe/test_data/lefthand_1201.cnt")
+  ```
